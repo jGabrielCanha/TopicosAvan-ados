@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edittext_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"/>
+
+    <EditText
+        android:id="@+id/edittext_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CPF"/>
+
+    <EditText
+        android:id="@+id/edittext_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ativo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ativo"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radiobutton_graduacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graduação"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_posgraduacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pós-graduação"/>
+    </RadioGroup>
+
+    <!-- Adicionando o ImageView para exibir a foto -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="Foto do Aluno"/>
+
+    <!-- Botão para salvar o aluno -->
+    <Button
+        android:id="@+id/button_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+
+    <!-- Botão para tirar foto -->
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tirar Foto"/>
+
+    <!-- Botão para listar alunos -->
+    <Button
+        android:id="@+id/button_listar_alunos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar Alunos"/>
+</LinearLayout>
