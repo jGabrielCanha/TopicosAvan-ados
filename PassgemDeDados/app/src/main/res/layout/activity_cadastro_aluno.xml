@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a idade"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnEnviarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Dados" />
+</LinearLayout>
