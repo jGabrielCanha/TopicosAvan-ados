@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item> <!-- Cor dos elementos principais -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Cor do texto sobre elementos primários -->
+        <item name="colorPrimaryContainer">@color/green</item> <!-- Cor de fundo para containers primários -->
+        <item name="colorSecondary">@color/green</item> <!-- Cor secundária -->
+        <item name="colorOnSecondary">@color/white</item> <!-- Cor do texto sobre elementos secundários -->
+        <item name="colorSecondaryContainer">@color/green</item> <!-- Cor de fundo para containers secundários -->
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>
